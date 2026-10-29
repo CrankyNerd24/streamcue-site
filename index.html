@@ -88,9 +88,10 @@
   .feature { background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; }
   .feature .ic { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; background: rgba(255,159,67,.12); color: var(--accent); margin-bottom: 16px; }
   .feature .ic svg { width: 22px; height: 22px; }
-  .feature h3 { margin: 0 0 8px; font-size: 18px; font-weight: 600; }
+  .feature h3 { margin: 0 0 8px; font-size: 18px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
   .feature p { margin: 0; color: var(--muted); font-size: 15.5px; }
   .free { color: var(--free); font-weight: 600; }
+  .tag-premium { background: rgba(255,159,67,.14); color: var(--accent); }
 
   /* Privacy band */
   .band { background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -193,7 +194,7 @@
       </div>
       <div class="feature">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 4 20 12 6 20 6 4"/></svg></div>
-        <h3>Watch Now</h3>
+        <h3>Watch Now <span class="tag tag-premium">Premium</span></h3>
         <p>One tap takes you to the title, starting with the services you already subscribe to.</p>
       </div>
       <div class="feature">
@@ -208,7 +209,7 @@
       </div>
       <div class="feature">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <h3>Share with your household</h3>
+        <h3>Share with your household <span class="tag tag-premium">Premium</span></h3>
         <p>Keep one list with your partner through iCloud, so you both know what's up next.</p>
       </div>
     </div>
@@ -225,7 +226,7 @@
       <div class="promise"><strong>No account</strong><span>Open it and start adding shows.</span></div>
       <div class="promise"><strong>No ads</strong><span>Not in the app, not ever.</span></div>
       <div class="promise"><strong>No tracking</strong><span>Your list stays on your device and your iCloud.</span></div>
-      <div class="promise"><strong>No subscription</strong><span>Free for early users. Never a monthly fee.</span></div>
+      <div class="promise"><strong>No subscription</strong><span>Download before Nov 15, 2026 and Premium is free, forever. $3.99 once after that — never a monthly fee.</span></div>
     </div>
   </div>
 </section>
