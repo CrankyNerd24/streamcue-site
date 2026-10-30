@@ -1,11 +1,5 @@
-# StreamCue website
+# streamcue-site
 
-Marketing, support, and privacy pages for the StreamCue iOS app, served by
-GitHub Pages at https://crankynerdcustoms.com (set by `CNAME`).
-
-- `index.html` — marketing page
-- `support.html` — App Store support URL
-- `privacy.html` — App Store privacy policy URL
-
-streamcue.net, streamcue.us, and streamcueapp.com redirect here from their own
-repos. The app's code lives in the private `streamcue` repo.
+Redirects crankynerdcustoms.com to https://streamcueapp.com, keeping the
+page path. This was the canonical site until the marketing site moved to
+streamcueapp.com (the streamcue-app repo).
